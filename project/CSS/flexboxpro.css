@@ -1,0 +1,150 @@
+body{
+    font-family:'Open-sans',sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding:0;
+}
+img{
+    width:80%;
+}
+
+
+.container{
+    margin: auto;
+}
+
+.primary-text{
+    color: #3d689d;
+}
+
+.primary-background{
+    background: #3d689d
+}
+
+#main-header{
+    border-bottom: 1px solid #3b699d;
+}
+
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #3d689d
+}
+
+#navbar li.current a, #navbar a:hover{
+    color:#3b699d;
+    border-bottom: 3px solid #3b699d;
+    padding-bottom: 3px;
+}
+
+#features h2{
+     font-size: 35px;
+     margin: 0;
+     padding-bottom: 10px;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa{
+    font-size: 60px;
+    color: #3b649a;
+}
+
+#info{
+    background:#333 url('../Images/bg.jpg');
+    color: #fff;
+}
+
+#info h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#info ul{
+    list-style: none;
+    padding: 0;
+}
+
+#info li{
+    font-size: 20px;
+    line-height: 2em;
+    
+}
+
+
+#Home{
+    border-bottom: 3px solid #3b689d;
+    color: #3d689d;
+}
+
+#showcase{
+    background-image: url('../Images/banner.jpg');
+    border-bottom: 1px solid #56a79a;
+    margin-bottom: 30px;
+}
+
+#showcase .row{
+    height: 600px;
+}
+
+#showcase h1{
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin: 0;
+}
+
+#showcase .showcase-content{
+    background: #333;
+    color:#fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+.company{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+.company input[type=text]{
+    padding: 10px;
+}
+
+.company button{
+    background: #222;
+    color: #fff;
+    padding:10px;
+    border: 0;
+}
